@@ -6,7 +6,7 @@ import java.io.*;
 /*** OPENPAD TEXT EDITOR
  COPYRIGHT(C) 2020 SHAIKH AQUIB */
 class openPad extends JFrame implements ActionListener {
-  JFrame frame = new JFrame("NotePad");
+  JFrame frame = new JFrame("openPad");
   JMenu menu = new JMenu("File");
   JMenuBar bar = new JMenuBar();
   JTextArea area = new JTextArea();
